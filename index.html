@@ -1,98 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <title>Transportation Survey</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programming Selector</title>
-</head>
-    <div class="center">
-    <h1>So you think programming is for you?</h1>
-    </div>
-<body>
-  <br><p>Welcome! I'm excited to hear about your interest into the world of Computer Programming. At first glance, 
-    the amount of different coding languages and information available can be quite daunting. But have no fear! 
-    I will be offering you different explanations of a few different languages, and then I will ask you a few 
-    questions which will make it a little easier in deciding which is best for you.</p>
-    <div class="div1">
-    <div>
-        <li><a href="https://en.wikipedia.org/wiki/Ruby_(programming_language)">Ruby</a> is a dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant 
-        syntax that is natural to read and easy to write.</li>
-    </div><br>
-    <div>
-        <li><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a> is a hybrid of C and C++, it is a Microsoft programming language developed to compete with Sun's Java language. 
-        C# is an object-oriented programming language used with XML-based Web services on the . NET platform and designed 
-        for improving productivity in the development of Web applications.</li>
-    </div><br>
-    <div>
-        <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> is a dynamic computer programming language. It is lightweight and most commonly used as a part of web 
-        pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an 
-        interpreted programming language with object-oriented capabilities.</li>
-    </div><br>
-    <div>
-    <li><a href="https://en.wikipedia.org/wiki/Go!_(programming_language)">Go</a> is a statically typed, compiled programming language designed at Google. It is syntactically similar to C, but 
-    with memory safety, garbage collection, structural typing, and CSP-style concurrency.</li>
-    </div><br>
-    <div>
-    <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a> is an interpreted, high-level, general-purpose programming language. First released in 1991, Python's design 
-    philosophy emphasizes code readability with its notable use of significant whitespace.</li>
-    </div><br>
-    <div>
-    <li><a href="https://en.wikipedia.org/wiki/Rust_(programming_language)">Rust</a> is a multi-paradigm programming language focused on performance and safety, especially safe concurrency. Rust is 
-    syntactically similar to C++, but provides memory safety without using garbage collection.</li>
-    </div><br>
-    <div>
-    <li><a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Swift</a> is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, iPadOS, 
-    macOS, watchOS, tvOS, and Linux. Swift is designed to work with Apple's Cocoa and Cocoa Touch frameworks and the large 
-    body of existing Objective-C code written for Apple products.</li>
-    </div><br>
-    </div>
-    <div class="div2">
-    <p>While this might all seem a little overwhelming, I have good news! It ties back to the founding father of coding, Herbie Hancock.
-        Herbie created the first THREE computer languages, but in trying to teach others, learned that it was overwhelming for the user 
-        to decide which was preferred. So, he enlisted the help of psychologist-extraordinairre, Good Will Hunting, to devise a simple 
-        yet efficient way to help in programming language selction! This is a modern-day version, of course.</p>
-    </div>
-    <form id="yourHorrorscope">
-        <label for="horrorscope">What is your Zodiac sign?</label>
-        <select id="horrorscope">
-            <option value="aries">Aries</option>
-            <option value="taurus">Taurus</option>
-            <option value="gemini">Gemini</option>
-            <option value="cancer">Cancer</option>
-            <option value="leo">Leo</option>
-            <option value="virgo">Virgo</option>
-            <option value="libra">Libra</option>
-            <option value="scorpio">Scorpio</option>
-            <option value="sagittarius">Sagittarius</option>
-            <option value="capricorn">Capricorn</option>
-            <option value="aquarius">Aquarius</option>
-            <option value="pisces">Pisces</option>
-        </select><br>
-        <button type="submit" class="btn btn-danger">Submit</button>
-        <span id="output"><br></span></form><br>
-    <div id="season-hiding">
-            <p>By selecting your horrorscope, it has narrowed down the possibilities of the most optimal language 
-                for you to learn. <span class="clickable">Go ahead and click here to see the next possible choices.</span></p>
-    </div> 
-    <div id="season-showing">
-    <form id="favoriteSeason">
-        <label for="season">What is your favorite season?</label>
-        <select id="season">
-            <option value="spring">Spring</option>
-            <option value="summer">Summer</option>
-            <option value="fall">Fall</option>
-            <option value="winter">Winter</option>
-        </select><br>
-        <button type="submit" class="btn btn-danger">Submit</button>
-        <span id="input"><br></span></form>
-        <p>The selection of your favorite season has narrowed down the field by 50%!</p>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Transportation Survey</h2>
+      </div>
+      <div>
+        <!--<p><b>And for your final question!</b></p>
+        <form id="favoriteSport">
+            <label for="sport">What is your favorite season?</label>
+            <select id="sport">
+                <option value="baseball">baseball</option>
+                <option value="football">football</option>
+                <option value="hockey">hockey</option>
+                <option value="basketball">basketball</option>
+            </select><br>-->
+    
+      </div>
+      <form id="user_survey">
+        <div class="form-group">
+          <p>Which Zodiac signs are you most compatible with?</p>
+          <input type="checkbox" name="horrorscope" value="Aries">Aries<br>
+          <input type="checkbox" name="horrorscope" value="Taurus">Taurus<br>
+          <input type="checkbox" name="horrorscope" value="Gemini">Gemini<br>
+          <input type="checkbox" name="horrorscope" value="Cancer">Cancer<br>
+          <input type="checkbox" name="horrorscope" value="Leo">Leo<br>
+          <input type="checkbox" name="horrorscope" value="Virgo">Virgo<br>
+          <input type="checkbox" name="horrorscope" value="Libra">Libra<br>
+          <input type="checkbox" name="horrorscope" value="Scorpio">Scorpio<br>
+          <input type="checkbox" name="horrorscope" value="Sagittarius">Sagittarius<br>
+          <input type="checkbox" name="horrorscope" value="Capricorn">Capricorn<br>
+          <input type="checkbox" name="horrorscope" value="Aquarius">Aquarius<br>
+          <input type="checkbox" name="horrorscope" value="Pisces">Pisces<br>
+        </div>
+        <div class="form-group">
+          <p>What are your favorite seasons?</p>
+          <input type="checkbox" name="season" value="Spring">Spring<br>
+          <input type="checkbox" name="season" value="Summer">Summer<br>
+          <input type="checkbox" name="season" value="Fall">Fall<br>
+          <input type="checkbox" name="season" value="Winter">Winter<br>
+        </div>
+        <div class="form-group">
+          <p>What are your favorite movie genres?</p>
+          <input type="checkbox" name="genre" value="Comedy">Comedy<br>
+          <input type="checkbox" name="genre" value="Drama">Drama<br>
+          <input type="checkbox" name="genre" value="Suspense">Suspense<br>
+          <input type="checkbox" name="genre" value="Romance">Romance<br>
+        </div>
+        <div class="form-group">
+          <p>What are your favorite types of pets?</p>
+          <input type="checkbox" name="pets" value="Dogs">Dogs<br>
+          <input type="checkbox" name="pets" value="Cats">Cats<br>
+          <input type="checkbox" name="pets" value="Chinchilla">Chinchillas<br>
+          <input type="checkbox" name="pets" value="Other">Other<br>
+        </div>
+        <div class="form-group">
+          <p>What are your favorite types of Ice Cream?</p>
+          <input type="checkbox" name="iceCream" value="Vanilla">Vanilla<br>
+          <input type="checkbox" name="iceCream" value="Chocolate">Chocolate<br>
+          <input type="checkbox" name="iceCream" value="Rocky Road">Rocky Road<br>
+          <input type="checkbox" name="iceCream" value="Cookie Dough">Cookie Dough<br>
+        </div>
 
-        
+
+
+      <button type="submit">Submit Survey</button>
+      </form>
+      <span id="horrorscope-responses">
+        <p><b>The Zodiac signs you feel most compatible with are:</b></p>
+      </span>
+      <br>
+      <span id="season-responses">
+        <p><b>Your favorite seasons are:</b></p>
+      </span>
+      <br>
+      <span id="genre-responses">
+        <p><b>Your favorite genres of movies are:</b></p>
+      </span>
+      <br>
+      <span id="pets-responses">
+        <p><b>Your favorite household pets are:</b></p>
+      </span> 
+      <br>
+      <span id="iceCream-responses"></span>
+      <p><b>Your favorite types of ice cream are:</b></p>
+      </span><br>
+      <p>Based on the input responses, your most optimal progamming language is:
+        <br> <bold?>JAVASCRIPT</bold> </p>
+      <!--<p><b>And for your final question!</b></p>
+        <form id="favoriteSport">
+            <label for="sport">What is your favorite season?</label>
+            <select id="sport">
+                <option value="baseball">baseball</option>
+                <option value="football">football</option>
+                <option value="hockey">hockey</option>
+                <option value="basketball">basketball</option>
+            </select><br>-->
+    
+      <br>
     </div>
-</body>
+  </body>
 </html>
-

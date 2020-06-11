@@ -1,47 +1,19 @@
-.center {
-  margin: auto;
-  width: 100%;
-  border: 3px solid black;
-  padding: 1px;
-  text-align: center;
-  color: white;
-  background-image: url("https://www.syfy.com/sites/syfy/files/styles/1200x680_hero/public/wire/legacy/computers-text-matrix-computer-code.jpg");
-  background-color: #cccccc;
-}
-
-body {
-    background-color: lightyellow;
-    color: black;
-    text-align: center;
-}
-
-.div1{ 
-  border: 3px solid black;
-  background-color: lightblue;
-  padding-top: 45px;
-  padding-right: 30px;
-  padding-bottom: 45px;
-  padding-left: 80px;
-}
-
-.div2{
-  border: 3px solid black;
-  background-color: lightsteelblue;
-  padding-top: 45px;
-  padding-right: 30px;
-  padding-bottom: 45 px;
-  padding-left: 40 px;
-}
-
-#season-showing {
+#horrorscope-responses {
   display: none;
 }
 
-.clickable {
-  cursor: pointer;
-  color: black;
+#season-responses {
+  display: none;
 }
 
-.clickable:hover {
-  text-decoration: solid;
+#genre-responses {
+  display: none;
+}
+
+#pets-responses {
+  display: none;
+}
+
+#sport-showing {
+  display: none;
 }
